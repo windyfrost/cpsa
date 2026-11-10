@@ -1,14 +1,14 @@
 # Getting started
 
-[Home](../README.md) · [Study plan](study-plan.md) · [Downloads](../resources/downloads.md)
+[Home](../README.md) · [Study plan](study-plan.md) · [Downloads](downloads.md)
 
 ## Your first session
 
 1. Read the [exam summary](exam-information.md) and open the official syllabus linked there.
-2. Copy the [coverage tracker](../syllabus/README.md) into your own notes. Mark what you can explain without prompts.
+2. Copy the [coverage tracker](syllabus.md) into your own notes. Mark what you can explain without prompts.
 3. Start with assessment management and networking in the [study plan](study-plan.md). If you already know them, demonstrate the checklist outcomes and move on.
 4. Pair each reading session with a small permitted lab and a short written explanation of its output.
-5. Use [Markdown notes](../README.md#study-domains) online. Use [PDFs](../resources/downloads.md) for offline reference, after reviewing the rights notices.
+5. Use [Markdown notes](study-plan.md) online. Use [PDFs](downloads.md) for offline reference, after reviewing the rights notices.
 
 ## What you need
 

@@ -1,6 +1,6 @@
 # Core skills and networking
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: B. These introductory notes are not exhaustive.
 
@@ -31,6 +31,6 @@ Cryptography is a coverage gap in the original notes. Be able to distinguish rev
 
 ## Apply it
 
-Calculate a subnet and explain a saved TCP handshake. Compare encoding, hashing and encryption. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Calculate a subnet and explain a saved TCP handshake. Compare encoding, hashing and encryption. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.
