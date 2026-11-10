@@ -48,8 +48,8 @@ The release asset exceeds GitHub's regular Git file limit of 100 MiB. It remains
 
 Record exact tag, asset name, URL, byte size, verification date, provenance and permission evidence when changing this catalogue. Keep stable links. A new upload, replacement, removal or release change requires the owner's approval; uncertain rights must be resolved first. No release was changed during this documentation overhaul.
 
-## Prepared ZIP and checksums
+## Combined ZIP and checksums
 
 An all-six-PDF ZIP was prepared locally before upload. Its size is 181,334,878 bytes. The [checksum manifest](../SHA256SUMS.txt) covers each PDF and the prepared ZIP. The ZIP contains a separate `PDF-SHA256SUMS.txt` covering its six PDFs, so there is no circular dependency on the ZIP's own digest.
 
-The ZIP and the combined external `SHA256SUMS.txt` are prepared for a new release following the owner's permission confirmation. No download URL for the ZIP is claimed before a successful upload. See [maintenance instructions](maintenance.md) for the local build process.
+[Download all six PDFs as a ZIP](https://github.com/windyfrost/cpsa/releases/download/v1.1.0/cpsa-study-materials.zip) and [download the external checksum manifest](https://github.com/windyfrost/cpsa/releases/download/v1.1.0/SHA256SUMS.txt) from [release v1.1.0](https://github.com/windyfrost/cpsa/releases/tag/v1.1.0). Both uploaded asset sizes and SHA-256 digests matched the locally verified files. The existing v1.0.0 release and individual Nmap URL are unchanged. See [maintenance instructions](maintenance.md) for the local build process.

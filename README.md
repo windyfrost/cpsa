@@ -2,6 +2,8 @@
 
 PDF references and a few useful links for CREST Practitioner Security Analyst preparation.
 
+**[Download all six PDFs — ZIP, 172.9 MiB](https://github.com/windyfrost/cpsa/releases/download/v1.1.0/cpsa-study-materials.zip)** · [Download checksums](https://github.com/windyfrost/cpsa/releases/download/v1.1.0/SHA256SUMS.txt)
+
 ## PDFs
 
 | Resource | Size | Download |
@@ -13,7 +15,7 @@ PDF references and a few useful links for CREST Practitioner Security Analyst pr
 | RTFM (existing modified copy) | 10.2 MiB | [PDF](RTFMv3.pdf) |
 | Nmap Network Scanning | 120.1 MiB | [PDF](https://github.com/windyfrost/cpsa/releases/download/v1.0.0/gordon-fyodor-lyon-nmap-network-scanning-the-official-nmap-project-guide-to-network-discovery-and-security-scanning-nmap-project-2009.pdf) |
 
-[Release downloads](https://github.com/windyfrost/cpsa/releases) · [SHA-256 checksums](SHA256SUMS.txt)
+[Release v1.1.0](https://github.com/windyfrost/cpsa/releases/tag/v1.1.0) · [SHA-256 checksums](SHA256SUMS.txt)
 
 ## Helpful links
 
