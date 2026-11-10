@@ -2,9 +2,9 @@
 
 [Home](../README.md) · [Rights record](licensing-and-attribution.md)
 
-Corrected 2026-11-10. The owner clarified that redistribution permission is not held. The newly created combined ZIP release has been returned to draft, and anonymous ZIP and checksum downloads return HTTP 404. This page does not provide a download catalogue for the unauthorised copies.
+Corrected 2026-11-10. The owner clarified that redistribution permission is not held. The five repository PDFs were removed on the cleanup branch and the Nmap PDF asset was removed from release v1.0.0. The combined ZIP release v1.1.0 remains a draft.
 
-## Existing copies requiring review
+## Historical access paths
 
 - CREST-CPSA-Technical-Syllabus-V2.5-.pdf
 - Gray Hat Hacking, 3rd Edition.pdf
@@ -13,7 +13,7 @@ Corrected 2026-11-10. The owner clarified that redistribution permission is not 
 - RTFMv3.pdf
 - The Nmap Network Scanning PDF in the pre-existing v1.0.0 release
 
-These existing files and the older release remain unchanged pending owner review. The original PDFs have not been removed as part of withdrawing the new bundle. Checksums establish byte identity, not permission or authenticity.
+Earlier Git history still contains the five removed PDFs. The v1.0.0 tag points to a commit that includes them, so GitHub-generated source ZIP and tar archives remain an access path. The Nmap PDF was a release-only asset and is not part of that commit. History was not rewritten. Checksums establish byte identity, not permission or authenticity.
 
 ## Authorised access
 

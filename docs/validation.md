@@ -41,6 +41,6 @@ The examination summary is supported by [CREST's current CPSA guidance](https://
 
 The owner withdrew the earlier confirmation on 2026-11-10 and clarified that redistribution permission is not held. The release book's title and byte identity against the existing asset have been checked. The notes remain partial coverage; they do not certify readiness or provide official exam questions. Historical legal references are retained as study pointers; current legal requirements are not adjudicated by this documentation.
 
-Release v1.1.0 is now a draft. Its assets are preserved, but anonymous ZIP and checksum downloads return HTTP 404. The owner approved proceeding with the corrected links-based README; this approval does not authorise republishing the ZIP. Existing PDFs and v1.0.0 still require rights review.
+The five PDFs have been removed from the cleanup branch, and the Nmap PDF asset has been removed from v1.0.0. The v1.1.0 release remains a draft. GitHub-generated source archives for v1.0.0 still return HTTP 200 and contain the old tagged snapshot; Git history was not rewritten.
 
 Earlier visual and link checks describe the pre-withdrawal draft. The current proposed README is a short links page without the combined ZIP or mirrored-book download links.

@@ -1,7 +1,0 @@
-91e1df0d8a551d18dd4298a4be547af3830553ef36285a43dcf955e369df0292  CREST-CPSA-Technical-Syllabus-V2.5-.pdf
-a899f38e7a6940a9ad52356228a08de658541a60e5936d71b804382f49cf436f  Gray Hat Hacking, 3rd Edition.pdf
-f42060220848ceb6a44c710ec9decc1fd845ecd15f6e696da6f03553758a8db5  Hacking Exposed Linux, 3rd Edition.pdf
-4e55d7f38c7ae1552fe74600ce872f9a8bd951a4dda68a1fd8b68dc58b63da65  Network Security Assessment Know Your Network, 3rd Edition.pdf
-61ba2ef6dcbb62983bf9f385f07726c83767546a001e4fcb10fff471763b8da5  RTFMv3.pdf
-5960c165849c4436e14f958bde753e50bb308b507b781ef5bac647ad65dec77d  gordon-fyodor-lyon-nmap-network-scanning-the-official-nmap-project-guide-to-network-discovery-and-security-scanning-nmap-project-2009.pdf
-ffa03ae387845ca6656c99d4cb6ec8bf30c91506074f50b5e97f17759f36b071  cpsa-study-materials.zip

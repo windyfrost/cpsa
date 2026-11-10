@@ -7,6 +7,6 @@ A short collection of study links for CREST Practitioner Security Analyst prepar
 - [Nmap's official online guide](https://nmap.org/book/)
 - [Optional study notes](docs/getting-started.md)
 
-The proposed combined PDF release has been withdrawn because redistribution permission is not held. Existing repository copies still require [rights review](docs/licensing-and-attribution.md).
+PDF copies without redistribution permission were removed from the current repository and from the v1.0.0 release. Earlier Git history and the v1.0.0 source archives still retain copies; see the [rights review](docs/licensing-and-attribution.md).
 
 This is an independent project, not endorsed by CREST.

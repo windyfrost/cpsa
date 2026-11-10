@@ -21,28 +21,7 @@ To inspect GitHub formatting before publication, render Markdown with GitHub's M
 
 ## PDF distribution is on hold
 
-The owner clarified that redistribution permission is not held. The combined ZIP release was returned to draft. The owner subsequently approved proceeding with the corrected links-based README and optional notes. This does not authorise republishing the ZIP. Prefer official source links, original notes and materials with redistribution permission. Existing PDFs and the older release need a separate review; they have not been removed.
-
-## Build the PDF bundle locally
-
-The builder hashes each source PDF, creates a ZIP with fixed timestamps, checks every archived PDF against its source SHA-256, and verifies the ZIP CRCs. It never uploads anything. Keep its output outside the Git tree; the ZIP exceeds the regular Git file limit.
-
-Download the existing Nmap release PDF separately and compare its SHA-256 with the existing release digest. Pass its actual local path as `--extra-pdf`, along with a directory outside this repository as `--output-dir`:
-
-```text
-python scripts/build-pdf-bundle.py --extra-pdf PATH_TO_NMAP_PDF --output-dir OUTPUT_DIRECTORY
-```
-
-The placeholders above must be replaced with actual paths; quote paths containing spaces. The outputs are:
-
-- `cpsa-study-materials.zip`: all six PDFs plus `PDF-SHA256SUMS.txt`.
-- `PDF-SHA256SUMS.txt`: six individual PDF hashes, also stored inside the ZIP.
-- `SHA256SUMS.txt`: six individual PDF hashes plus the ZIP hash; use this as the repository checksum file.
-- `cpsa-study-materials.zip.sha256`: the ZIP hash alone, for checking before extraction.
-
-The ZIP cannot contain its own checksum. Verify the ZIP against an external manifest, then extract it and verify its PDF manifest. SHA-256 confirms identical bytes, not who produced them or whether distribution is authorised. After a rebuild, the ZIP hash must be recomputed; do not reuse a previous hash.
-
-Before a new upload, resolve the rights review and obtain publication approval. Preserve the existing release and asset. After uploading the new ZIP and checksum files, verify the uploaded size and digest, then add the actual returned download URL to the README. Never guess or publish an asset URL before upload succeeds.
+The owner clarified that redistribution permission is not held. The five PDFs were removed from the cleanup branch, the Nmap PDF asset was removed from v1.0.0, and v1.1.0 remains a draft. The v1.0.0 tag and earlier Git commits still contain PDF copies. History was not rewritten. Do not republish the ZIP or restore the removed assets without permission.
 
 ## Keeping the hub current
 
