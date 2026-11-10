@@ -1,6 +1,6 @@
 # Recommended reading and learning resources
 
-[Home](../README.md) · [Downloads](downloads.md) · [Syllabus tracker](../syllabus/README.md)
+[Home](../README.md) · [Downloads](downloads.md) · [Syllabus tracker](syllabus.md)
 
 Reviewed 2026-11-10. Pick references to close specific syllabus gaps; no resource here guarantees exam coverage.
 
@@ -31,4 +31,4 @@ The [Nmap book website](https://nmap.org/book/) is an author-maintained route to
 - [sudosuraj's preparation write-up](https://sudosuraj.medium.com/how-i-cleared-crest-cpsa-in-5-days-and-built-the-tool-that-made-it-possible-7d0dab2a4689) is retained from the original guide as one person's experience. The article was readable through web retrieval, although the automated HEAD check returned 403. Its rapid-preparation account is not a recommended duration; its A–K topic breakdown differs from CREST's currently linked A–J syllabus, so verify exam and tool claims independently.
 - [TryHackMe](https://tryhackme.com) and [Hack The Box](https://www.hackthebox.com) remain the original guide's platform suggestions. Consult their current catalogues, access terms and prices.
 
-See [practice](../practice/README.md) for a topic-based sequence. Platform curricula and community articles are supplementary to CREST's syllabus.
+See [practice](practice.md) for a topic-based sequence. Platform curricula and community articles are supplementary to CREST's syllabus.

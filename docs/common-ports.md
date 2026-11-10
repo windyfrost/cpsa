@@ -1,6 +1,6 @@
 # Common ports
 
-[Networking notes](../notes/networking.md) · [Home](../README.md)
+[Networking notes](networking.md) · [Home](../README.md)
 
 These are conventional assignments, not proof of which application is running. Transport matters; validate with service evidence.
 

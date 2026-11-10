@@ -1,8 +1,8 @@
 # Study-material download catalogue
 
-[Home](../README.md) · [Read online](../README.md#study-domains) · [Rights and attribution](licensing-and-attribution.md)
+[Home](../README.md) · [Read online](study-plan.md) · [Rights and attribution](licensing-and-attribution.md)
 
-Inventory verified 2026-11-10 against tracked files and the [GitHub Releases API](https://api.github.com/repos/windyfrost/cpsa/releases). All existing files and release assets are preserved. These third-party copies have unresolved redistribution permissions; review the [rights register](licensing-and-attribution.md) before reusing or sharing them.
+Inventory verified 2026-11-10 against tracked files and the [GitHub Releases API](https://api.github.com/repos/windyfrost/cpsa/releases). All existing files and release assets are preserved. The owner confirmed redistribution permission for all six PDFs; see the [attribution record](licensing-and-attribution.md). This does not create a new downstream reuse license.
 
 ## Release asset
 
@@ -10,13 +10,13 @@ Inventory verified 2026-11-10 against tracked files and the [GitHub Releases API
 
 | Material | Version evidence | Verified size | Existing download |
 | --- | --- | --- | --- |
-| Nmap Network Scanning book | Release v1.0.0; filename indicates 2009 (contents not inspected) | 125,904,645 bytes (120.1 MiB) | [Download existing PDF](https://github.com/windyfrost/cpsa/releases/download/v1.0.0/gordon-fyodor-lyon-nmap-network-scanning-the-official-nmap-project-guide-to-network-discovery-and-security-scanning-nmap-project-2009.pdf) |
+| Nmap Network Scanning book | Release v1.0.0; title verified from opening pages; filename indicates 2009 | 125,904,645 bytes (120.1 MiB) | [Download existing PDF](https://github.com/windyfrost/cpsa/releases/download/v1.0.0/gordon-fyodor-lyon-nmap-network-scanning-the-official-nmap-project-guide-to-network-discovery-and-security-scanning-nmap-project-2009.pdf) |
 
 Exact asset filename:
 
 `gordon-fyodor-lyon-nmap-network-scanning-the-official-nmap-project-guide-to-network-discovery-and-security-scanning-nmap-project-2009.pdf`
 
-API-provided SHA-256 digest (not independently recomputed from the asset):
+SHA-256 recomputed from the downloaded asset and matched to GitHub's API digest:
 
 `5960c165849c4436e14f958bde753e50bb308b507b781ef5bac647ad65dec77d`
 
@@ -47,3 +47,9 @@ The release asset exceeds GitHub's regular Git file limit of 100 MiB. It remains
 ## Maintainer updates
 
 Record exact tag, asset name, URL, byte size, verification date, provenance and permission evidence when changing this catalogue. Keep stable links. A new upload, replacement, removal or release change requires the owner's approval; uncertain rights must be resolved first. No release was changed during this documentation overhaul.
+
+## Prepared ZIP and checksums
+
+An all-six-PDF ZIP was prepared locally before upload. Its size is 181,334,878 bytes. The [checksum manifest](../SHA256SUMS.txt) covers each PDF and the prepared ZIP. The ZIP contains a separate `PDF-SHA256SUMS.txt` covering its six PDFs, so there is no circular dependency on the ZIP's own digest.
+
+The ZIP and the combined external `SHA256SUMS.txt` are prepared for a new release following the owner's permission confirmation. No download URL for the ZIP is claimed before a successful upload. See [maintenance instructions](maintenance.md) for the local build process.

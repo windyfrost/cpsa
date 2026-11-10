@@ -1,6 +1,6 @@
 # Command reference
 
-[Home](../README.md) · [Lab workflow](../practice/README.md)
+[Home](../README.md) · [Lab workflow](practice.md)
 
 The original commands are retained below as lab references. Replace angle-bracket values with your explicitly authorised lab targets; they are not literal shell syntax. Confirm installed tool help, permissions, scope and rate limits first.
 

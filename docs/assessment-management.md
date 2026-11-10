@@ -1,6 +1,6 @@
 # Assessment management
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: A. These introductory notes are not exhaustive.
 
@@ -29,6 +29,6 @@ The original legal references below are study pointers, not current legal guidan
 
 ## Apply it
 
-Write a one-page scope for your lab, including excluded systems and a stop condition. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Write a one-page scope for your lab, including excluded systems and a stop condition. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.

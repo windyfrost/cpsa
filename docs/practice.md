@@ -1,6 +1,6 @@
 # Authorised practice
 
-[Home](../README.md) · [Study plan](../docs/study-plan.md) · [Command reference](../cheatsheets/commands.md)
+[Home](../README.md) · [Study plan](study-plan.md) · [Command reference](commands.md)
 
 These are study activities, not official CREST questions or mock exams. Use your own isolated systems or training labs that explicitly permit the activity. Agree scope and impact before sending traffic.
 

@@ -1,6 +1,6 @@
 # Web applications and databases
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: G–J. These introductory notes are not exhaustive.
 
@@ -10,7 +10,7 @@ Authentication establishes an identity; authorisation decides which action that 
 
 For XSS, use context-appropriate output encoding and safe APIs; sanitise intentionally allowed HTML. CSP is defence in depth. SQL parameterisation separates values from query structure. CSRF concerns unwanted authenticated requests; XSS concerns script execution in a browser context.
 
-Study the database tier explicitly: connection identities, least privilege, patch/version evidence and application-to-database trust. J1–J3 cover database-specific issues absent from the original notes. Use vendor documentation and the web references in [recommended reading](../resources/recommended-reading.md).
+Study the database tier explicitly: connection identities, least privilege, patch/version evidence and application-to-database trust. J1–J3 cover database-specific issues absent from the original notes. Use vendor documentation and the web references in [recommended reading](recommended-reading.md).
 
 ## Topic reference
 
@@ -34,6 +34,6 @@ Study the database tier explicitly: connection identities, least privilege, patc
 
 ## Apply it
 
-Use a hosted training lab to trace login, session state, object access and a database-backed request. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Use a hosted training lab to trace login, session state, object access and a database-backed request. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.

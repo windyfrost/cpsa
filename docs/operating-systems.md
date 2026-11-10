@@ -1,6 +1,6 @@
 # Operating systems and host security
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: E–F; B13–B14. These introductory notes are not exhaustive.
 
@@ -31,6 +31,6 @@ Unix logging locations vary by distribution and logging stack; some systems use 
 
 ## Apply it
 
-Review a lab file ACL or Unix permission set and trace who can read and modify the file. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Review a lab file ACL or Unix permission set and trace who can read and modify the file. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.

@@ -1,6 +1,6 @@
 # Network and infrastructure security
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: D; B6, B10–B12. These introductory notes are not exhaustive.
 
@@ -30,6 +30,6 @@ WEP, TKIP and older wireless mechanisms remain syllabus study topics; inclusion 
 
 ## Apply it
 
-Review a fictional firewall rule set and a supplied PCAP; identify allowed paths and management exposure. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Review a fictional firewall rule set and a supplied PCAP; identify allowed paths and management exposure. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.

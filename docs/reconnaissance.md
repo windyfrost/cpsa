@@ -1,6 +1,6 @@
 # Information gathering
 
-[Study roadmap](../docs/study-plan.md) · [Syllabus tracker](../syllabus/README.md) · [Home](../README.md)
+[Study roadmap](study-plan.md) · [Syllabus tracker](syllabus.md) · [Home](../README.md)
 
 Official mapping: C; B4, B8–B9. These introductory notes are not exhaustive.
 
@@ -30,6 +30,6 @@ A zone transfer is not a reverse lookup. An AXFR request asks an authoritative s
 
 ## Apply it
 
-Draw a DNS record relationship map for a domain you control. Separate public observations from active requests. See the [authorised lab workflow](../practice/README.md) and [topic references](../resources/recommended-reading.md).
+Draw a DNS record relationship map for a domain you control. Separate public observations from active requests. See the [authorised lab workflow](practice.md) and [topic references](recommended-reading.md).
 
 Last reviewed: 2026-11-10.
