@@ -6,11 +6,11 @@ Run date: 2026-11-10. This page records the original overhaul checks and the sub
 
 ## Documentation checks
 
-- The repository's link checker passes for 22 Markdown files and 126 internal links after consolidation under `docs/`, including exact path case and heading fragments. Every documented local target exists. The original overhaul had 147 internal links.
+- The repository's link checker passes for 22 Markdown files and 110 internal links after consolidation under `docs/` and removal of withdrawn download links, including exact path case and heading fragments. Every documented local target exists. The original overhaul had 147 internal links.
 - Markdown files have one H1 each and balanced fenced blocks. Git whitespace checks pass.
 - GitHub's Markdown API returned HTTP 200 for the redesigned README in GFM mode. The result contains the expected heading hierarchy, links and seven-row domain table.
 - The original overhaul's API-rendered HTML was visually inspected with a local GitHub-like stylesheet at 1120 px and 390 px viewport widths. Both layouts were readable with no page-level horizontal overflow. Its merged README was subsequently confirmed visible on the public repository.
-- The final minimalist README was separately rendered through GitHub's Markdown API and visually inspected at the same desktop and mobile widths. Both previews passed, with a prominent working ZIP link and Medium article and no page-level horizontal overflow.
+- The earlier PDF-focused README was separately rendered through GitHub's Markdown API and visually inspected at the same desktop and mobile widths. Those previews passed before the release was withdrawn; the current README instead links to the Medium article and official sources.
 - Topic headings, command blocks, filenames and navigation were reviewed for consistency. The seven original topic lists and command examples remain available, with documented corrections.
 
 ## External links
@@ -41,6 +41,6 @@ The examination summary is supported by [CREST's current CPSA guidance](https://
 
 The owner withdrew the earlier confirmation on 2026-11-10 and clarified that redistribution permission is not held. The release book's title and byte identity against the existing asset have been checked. The notes remain partial coverage; they do not certify readiness or provide official exam questions. Historical legal references are retained as study pointers; current legal requirements are not adjudicated by this documentation.
 
-Release v1.1.0 is now a draft. Its assets are preserved, but anonymous ZIP and checksum downloads return HTTP 404. PR #2 remains unmerged, and its description and proposed README have been corrected. Existing PDFs and v1.0.0 still require rights review.
+Release v1.1.0 is now a draft. Its assets are preserved, but anonymous ZIP and checksum downloads return HTTP 404. The owner approved proceeding with the corrected links-based README; this approval does not authorise republishing the ZIP. Existing PDFs and v1.0.0 still require rights review.
 
 Earlier visual and link checks describe the pre-withdrawal draft. The current proposed README is a short links page without the combined ZIP or mirrored-book download links.

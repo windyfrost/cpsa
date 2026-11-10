@@ -19,9 +19,9 @@ The script checks inline Markdown file links, exact path case, heading fragments
 
 To inspect GitHub formatting before publication, render Markdown with GitHub's Markdown API using relative context, then preview the resulting HTML. A local render confirms generated structure; final sidebar, downloads and mobile appearance still need a post-approval GitHub review.
 
-## Publication is on hold
+## PDF distribution is on hold
 
-The owner clarified that redistribution permission is not held. The combined ZIP release was returned to draft and PR #2 must not be merged without further approval. Prefer official source links, original notes and materials with redistribution permission. Do not republish the ZIP based on the withdrawn confirmation. Existing PDFs and the older release need a separate review; they have not been removed.
+The owner clarified that redistribution permission is not held. The combined ZIP release was returned to draft. The owner subsequently approved proceeding with the corrected links-based README and optional notes. This does not authorise republishing the ZIP. Prefer official source links, original notes and materials with redistribution permission. Existing PDFs and the older release need a separate review; they have not been removed.
 
 ## Build the PDF bundle locally
 

@@ -43,4 +43,4 @@ At the owner's request, the front page was reduced to PDFs, helpful links and ch
 
 The Nmap release PDF was subsequently downloaded, its opening title pages inspected, and its SHA-256 independently matched to GitHub's existing digest. A six-PDF ZIP, an internal per-PDF manifest and external per-PDF/ZIP checksum files were prepared locally. The owner initially stated that permission was held, but later clarified that this was not the case.
 
-The ZIP and manifest were initially published in v1.1.0 after the earlier confirmation. Following the owner's correction, that release was returned to draft and public asset downloads were verified to return 404. The older v1.0.0 release and original PDFs were not changed. PR #2 remains unmerged.
+The ZIP and manifest were initially published in v1.1.0 after the earlier confirmation. Following the owner's correction, that release was returned to draft and public asset downloads were verified to return 404. The older v1.0.0 release and original PDFs were not changed. The owner subsequently approved proceeding with PR #2's corrected links-based README and optional notes, with the ZIP remaining unpublished.
