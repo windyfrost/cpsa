@@ -41,6 +41,6 @@ Technical topic lists moved to seven note files, tool commands to the command re
 
 At the owner's request, the front page was reduced to PDFs, helpful links and checksum verification. The Medium preparation article is prominent again. All study and maintenance Markdown was consolidated under `docs/`, preserving its content and updating relative links. The original PDFs remain in place.
 
-The Nmap release PDF was subsequently downloaded, its opening title pages inspected, and its SHA-256 independently matched to GitHub's existing digest. A six-PDF ZIP, an internal per-PDF manifest and external per-PDF/ZIP checksum files were prepared locally. The owner then confirmed redistribution permission for all six PDFs, enabling preparation of a new release while preserving v1.0.0.
+The Nmap release PDF was subsequently downloaded, its opening title pages inspected, and its SHA-256 independently matched to GitHub's existing digest. A six-PDF ZIP, an internal per-PDF manifest and external per-PDF/ZIP checksum files were prepared locally. The owner initially stated that permission was held, but later clarified that this was not the case.
 
-The verified ZIP and combined checksum manifest were published in [release v1.1.0](https://github.com/windyfrost/cpsa/releases/tag/v1.1.0). Both uploaded digests match the pre-upload local files. The original release asset inventory was rechecked and is unchanged.
+The ZIP and manifest were initially published in v1.1.0 after the earlier confirmation. Following the owner's correction, that release was returned to draft and public asset downloads were verified to return 404. The older v1.0.0 release and original PDFs were not changed. PR #2 remains unmerged.

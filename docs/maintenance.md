@@ -19,13 +19,9 @@ The script checks inline Markdown file links, exact path case, heading fragments
 
 To inspect GitHub formatting before publication, render Markdown with GitHub's Markdown API using relative context, then preview the resulting HTML. A local render confirms generated structure; final sidebar, downloads and mobile appearance still need a post-approval GitHub review.
 
-## Publishing after owner approval
+## Publication is on hold
 
-1. Review rights concerns and confirm whether the current catalogue should remain as drafted. Any distribution changes need separate approval.
-2. Recheck CREST information and release metadata if time has passed.
-3. After explicit publication approval, push the feature branch and open a pull request against main. Describe the documentation changes, preservation and validation limits.
-4. Review the README and relative links on the branch in GitHub, including mobile width and the Releases route.
-5. Merge only after the owner approves the reviewed change. Do not rewrite tags, force-push or alter release assets.
+The owner clarified that redistribution permission is not held. The combined ZIP release was returned to draft and PR #2 must not be merged without further approval. Prefer official source links, original notes and materials with redistribution permission. Do not republish the ZIP based on the withdrawn confirmation. Existing PDFs and the older release need a separate review; they have not been removed.
 
 ## Build the PDF bundle locally
 

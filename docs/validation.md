@@ -15,7 +15,7 @@ Run date: 2026-11-10. This page records the original overhaul checks and the sub
 
 ## External links
 
-The minimalist follow-up's 25 distinct external URLs were requested using HTTP HEAD with redirects followed. Twenty-four returned HTTP 200, including both new release assets, the original Nmap asset, the official syllabus and exam guidance. The previous overhaul had 22 external URLs.
+Before withdrawal, 25 external URLs were checked: 24 returned HTTP 200 and the Medium HEAD request returned HTTP 403. The ZIP and checksum URLs are now intentionally disabled following withdrawal of the release; do not interpret the earlier availability checks as current distribution approval.
 
 The retained Medium article returned HTTP 403 to the automated check, but its content was readable through web retrieval. Its current title is “How I Cleared CREST CPSA Exam (And Built the Tool That Made It Possible)”; its A–K topic description differs from the official PDF's A–J structure. It remains labelled as community experience rather than examination authority. A 403 is not evidence that the URL is dead; reader access may vary.
 
@@ -25,9 +25,9 @@ OWASP, IANA, OpenSSH and platform URLs followed working redirects. Stable origin
 
 - GitHub's public API was inspected for published releases: one release, one uploaded PDF asset. Tag `v1.0.0` points to baseline `48da6e2`.
 - Asset name, byte size, uploaded state, browser download URL and API digest were recorded. The Nmap PDF was subsequently downloaded for the minimalist follow-up; its opening title pages were read and its independently computed SHA-256 matched the GitHub API digest.
-- All five pre-existing tracked PDFs and `.gitignore` remain byte-for-byte unchanged relative to the baseline. The existing v1.0.0 release and its asset were preserved; v1.1.0 adds the ZIP and combined checksum manifest.
+- All five pre-existing tracked PDFs and `.gitignore` remain byte-for-byte unchanged relative to the baseline. The existing v1.0.0 release and its asset were preserved. The newly created v1.1.0 release has been returned to draft.
 - The tracked syllabus matches a fresh download from the official CREST URL by SHA-256: `91e1df0d8a551d18dd4298a4be547af3830553ef36285a43dcf955e369df0292`.
-- No new tracked file approaches GitHub's 100 MiB regular Git limit. The PDF ZIP is kept outside the repository and distributed through the new v1.1.0 release.
+- No new tracked file approaches GitHub's 100 MiB regular Git limit. The PDF ZIP is kept outside the repository. The release containing it has been withdrawn from public download.
 
 ## Local bundle checks
 
@@ -39,6 +39,8 @@ The ZIP is 181,334,878 bytes. Its SHA-256 is `ffa03ae387845ca6656c99d4cb6ec8bf30
 
 The examination summary is supported by [CREST's current CPSA guidance](https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-security-analyst/). The coverage map uses the technical PDF linked there, v2.5; it does not use inconsistent webpage group summaries or community weightings.
 
-The owner confirmed redistribution permission for all six PDFs on 2026-11-10; underlying permission documents were not supplied here. The release book's title and byte identity against the existing asset have been checked. The notes remain partial coverage; they do not certify readiness or provide official exam questions. Historical legal references are retained as study pointers; current legal requirements are not adjudicated by this documentation.
+The owner withdrew the earlier confirmation on 2026-11-10 and clarified that redistribution permission is not held. The release book's title and byte identity against the existing asset have been checked. The notes remain partial coverage; they do not certify readiness or provide official exam questions. Historical legal references are retained as study pointers; current legal requirements are not adjudicated by this documentation.
 
-Release v1.1.0 is published. GitHub returned the same byte sizes and SHA-256 digests as the local ZIP and external manifest, after both were checked before upload. The SHA-256 of the uploaded manifest is `06d54190762701e155863a7252d94e2f61f1c9e6898eb0d888d3e1d7d4e185d0`. The original v1.0.0 asset inventory is unchanged. The minimalist README and documentation relocation are prepared on a feature branch; merge is subject to owner approval.
+Release v1.1.0 is now a draft. Its assets are preserved, but anonymous ZIP and checksum downloads return HTTP 404. PR #2 remains unmerged, and its description and proposed README have been corrected. Existing PDFs and v1.0.0 still require rights review.
+
+Earlier visual and link checks describe the pre-withdrawal draft. The current proposed README is a short links page without the combined ZIP or mirrored-book download links.
