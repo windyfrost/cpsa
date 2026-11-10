@@ -163,6 +163,8 @@ crackmapexec smb <target-ip> -u '' -p '' --shares
 
 ## 📖 Recommended Resources
 
+* **Community Write-ups & Experience Guides**:
+  * [How I Cleared CREST CPSA in 5 Days (And Built the Tool That Made It Possible)](https://sudosuraj.medium.com/how-i-cleared-crest-cpsa-in-5-days-and-built-the-tool-that-made-it-possible-7d0dab2a4689) by **sudosuraj** — Highly recommended practical write-up on fast-track prep, study methodology, and tooling.
 * **Official CREST Syllabus**: [CREST CPSA Technical Syllabus](https://www.crest-approved.org/)
 * **Books**:
   * *The Web Application Hacker's Handbook (2nd Edition)* — Dafydd Stuttard & Marcus Pinto
